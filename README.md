@@ -21,8 +21,8 @@ jobs:
 
 |Name              |Type    |Required? |Default                       |Description
 |------------------|--------|----------|------------------------------|------------------------------------
-|`apiAccessToken`  |string  |yes       |                              |The NPM auth token to use for publishing
-|`baseURL`         |string  |no        |https://platform.steadybit.io |The NPM registry URL to use
+|`apiAccessToken`  |string  |yes       |                              |Access Token to be used when accessing the Steadybit API
+|`baseURL`         |string  |no        |https://platform.steadybit.io |Base URL of the Steadybit server
 |`file`            |string  |no        |.steadybit.yml                |The path to your service definition file
 
 ## Outputs
