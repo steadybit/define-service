@@ -1,0 +1,33 @@
+{
+  "name": "@steadybit/define-service",
+  "version": "1.0.0",
+  "description": "GitHub action to register service definitions in Steadybit",
+  "keywords": [
+    "steadybit",
+    "github action",
+    "service definition"
+  ],
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "steadybit": "dist/cli/steadybit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steadybit/define-service.git"
+  },
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "author": "Steadybit GmbH",
+  "license": "MIT",
+  "dependencies": {
+    "steadybit": "^0.3.0",
+    "@actions/core": "^1.6.0"
+  },
+  "devDependencies": {
+  }
+}

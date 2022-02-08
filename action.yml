@@ -1,0 +1,17 @@
+name: "Define Service"
+description: "Register a service definition with Steadybit"
+inputs:
+  apiAccessToken:
+    description: "Access Token to be used when accessing the Steadybit API"
+    required: true
+  baseURL:
+    description: "Base URL of the Steadybit server"
+    required: false
+    default: "https://platform.steadybit.io"
+  file:
+    description: "Path to the service definition file name"
+    required: false
+    default: ".steadybit.yml"
+runs:
+  using: "node16"
+  main: "index.js"
