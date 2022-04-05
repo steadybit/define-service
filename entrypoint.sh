@@ -2,4 +2,4 @@
 
 filename="$1"
 
-steadybit service-definition apply "$GITHUB_WORKSPACE/$filename"
+steadybit service-definition apply -f "$GITHUB_WORKSPACE/$filename"
